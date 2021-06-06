@@ -26,4 +26,5 @@ end
 
 def get_english_meaning
   # code goes here
+   emote_library =  load_library(file_path)
 end
