@@ -20,7 +20,7 @@ end
 def get_japanese_emoticon(file_path, emoticon)
   
  emote_library =  load_library(file_path)
- emoticon = library
+ emoticon = library.keys.each do |key| 
   # code goes here
 end
 
